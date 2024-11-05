@@ -1,7 +1,8 @@
 
 import './App.css'
-import SimpleForm from './components/SimpleForm/SimpleForm'
-import StateFulForm from './components/StateFulForm/StateFulForm'
+import RefForm from './components/RefForm/RefForm'
+// import SimpleForm from './components/SimpleForm/SimpleForm'
+// import StateFulForm from './components/StateFulForm/StateFulForm'
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
     <>
      hello
      {/* <SimpleForm></SimpleForm> */}
-     <StateFulForm></StateFulForm>
+     {/* <StateFulForm></StateFulForm> */}
+     <RefForm></RefForm>
     </>
   )
 }
