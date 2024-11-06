@@ -23,11 +23,22 @@ function App() {
       <ReusableForm
         formTitle={"Sign Up"}
         handleForm={handleFormSignUp}
-      ></ReusableForm>
+        submitBtn="Sign Up"
+      >
+        <div>
+          <h1 className="text-3xl font-bold">Sign Up</h1>
+          <p>Please Sign Up First</p>
+        </div>
+      </ReusableForm>
       <ReusableForm
-        formTitle={"Profile Update"}
         handleForm={handleUpdateProfileForm}
-      ></ReusableForm>
+        submitBtn="Update Profile"
+      >
+        <div>
+        <h1 className="text-3xl font-bold">Sign Up</h1>
+        <p>Always keep update your profile</p>
+        </div>
+      </ReusableForm>
     </>
   );
 }
